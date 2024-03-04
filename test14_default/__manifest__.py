@@ -26,7 +26,7 @@
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
-    'depends': ['l10n_ar'],
+    'depends': [],
     'installable': True,
 
     # manifest version, if omitted it is backward compatible
@@ -45,19 +45,11 @@
 
     'git-repos': [
         'git@github.com:jobiols/cl-test.git -b 14.0e',
-
-        # para localizacion argentina
-        'https://github.com/quilsoft-org/odoo-argentina.git',
-        'https://github.com/quilsoft-org/odoo-argentina-ee.git',
-        'https://github.com/quilsoft-org/account-payment.git',
-        'https://github.com/quilsoft-org/account-financial-tools.git',
-        #'https://github.com/quilsoft-org/argentina-sale.git',
-
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-ent:14.0e',
-        'postgres postgres:10.1-alpine',
+        'postgres postgres:15.1-alpine',
     ]
 }
