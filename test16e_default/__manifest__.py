@@ -40,13 +40,16 @@
     "port": "8069",
     "git-repos": [
         "https://github.com/jobiols/cl-test.git -b 16.0e",
-
+    # AR
         'git@github.com:ingadhoc/odoo-argentina.git',
         'git@github.com:ingadhoc/account-financial-tools.git',
         'git@github.com:ingadhoc/account-invoicing.git',
         'git@github.com:ingadhoc/account-payment.git',
         'git@github.com:ingadhoc/odoo-argentina-ee.git',
         'git@github.com:ingadhoc/odoo-argentina-ce.git',
+        'git@github.com:ingadhoc/odoo-argentina-ce.git',
+    # PY
+        'git@github.com:tecnopro-assistance/l10n-paraguay.git'
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
