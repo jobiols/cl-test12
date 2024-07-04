@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2022  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2023  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@
 ##############################################################################
 
 {
-    "name": "test17",
+    "name": "test17e",
     "version": "17.0.1.0.0",
     "category": "Tools",
-    "summary": "Test for v17 CE",
+    "summary": "Test for v17 EE",
     "author": "jeo Software",
     "website": "http://github.com/jobiols/cl-test",
     "license": "AGPL-3",
@@ -35,29 +35,22 @@
     # Config to write in odoo.conf
     "config": [
         "workers = 0",
-        "admin_password = TestAdmin",
+        "admin_password = admin",
     ],
     "port": "8069",
     "git-repos": [
-        "https://github.com/jobiols/cl-test.git",
-        # localizacion
-        "https://github.com/ingadhoc/account-financial-tools.git",
-        "https://github.com/ingadhoc/account-payment.git",
-        "https://github.com/ingadhoc/odoo-argentina.git",
-        "https://github.com/ingadhoc/argentina-sale.git",
-        "https://github.com/ingadhoc/account-invoicing.git",
-        "https://github.com/ingadhoc/odoo-argentina-ee.git",
-        # Quilsoft
-        "git@github.com:quilsoft-org/addons-private.git",
-        "git@github.com:quilsoft-org/third-party-modules.git",
-        # OCA
-        "https://github.com/OCA/hr-expense.git",
-        "https://github.com/OCA/knowledge.git",
-        "https://github.com/OCA/business-requirement.git",
+        "https://github.com/jobiols/cl-test.git -b 17.0e",
+
+        # 'git@github.com:ingadhoc/odoo-argentina.git',
+        # 'git@github.com:ingadhoc/account-financial-tools.git',
+        # 'git@github.com:ingadhoc/account-invoicing.git',
+        # 'git@github.com:ingadhoc/account-payment.git',
+        # 'git@github.com:ingadhoc/odoo-argentina-ee.git',
+        # 'git@github.com:ingadhoc/odoo-argentina-ce.git',
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
-        "odoo jobiols/odoo-jeo:17.0",
+        "odoo jobiols/odoo-ent:17.0e",
         "postgres postgres:15.1-alpine",
     ],
 }
