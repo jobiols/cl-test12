@@ -49,6 +49,7 @@
         "https://github.com/ingadhoc/odoo-argentina-ee.git sub_l10n-ar/odoo-argentina-ee",
         "https://github.com/ingadhoc/stock.git sub_l10n-ar/stock",
         "https://github.com/ingadhoc/aeroo_reports.git sub_l10n-ar/aeroo_reports",
+        "https://github.com/ingadhoc/sale.git sub_l10n-ar/sale",
 
     ],
     # list of images to use in the form 'name image-url'
