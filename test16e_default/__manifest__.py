@@ -50,6 +50,7 @@
         "https://github.com/ingadhoc/stock.git adhoc-stock",
         "https://github.com/ingadhoc/aeroo_reports.git adhoc-aeroo_reports",
         "https://github.com/ingadhoc/sale.git adhoc-sale",
+        "https://github.com/adhoc-cicd/oca-sale-workflow.git",
 
     ],
     # list of images to use in the form 'name image-url'
