@@ -33,7 +33,7 @@
     # if Enterprise it installs in a different directory than community
     "odoo-license": "EE",
     # Config to write in odoo.conf
-    "config_local": [
+    "config-local": [
         "workers = 0",
         "admin_password = admin",
     ],
@@ -41,16 +41,16 @@
     "git-repos": [
         "https://github.com/jobiols/cl-test.git -b 16.0e",
 
-        "https://github.com/ingadhoc/account-financial-tools.git adhoc-account-financial-tools",
-        "https://github.com/ingadhoc/account-payment.git adhoc-account-payment",
-        "https://github.com/ingadhoc/odoo-argentina.git adhoc-odoo-argentina",
-        "https://github.com/ingadhoc/argentina-sale.git adhoc-argentina-sale",
-        "https://github.com/ingadhoc/account-invoicing.git adhoc-account-invoicing",
-        "https://github.com/ingadhoc/odoo-argentina-ee.git adhoc-odoo-argentina-ee",
-        "https://github.com/ingadhoc/stock.git adhoc-stock",
-        "https://github.com/ingadhoc/aeroo_reports.git adhoc-aeroo_reports",
-        "https://github.com/ingadhoc/sale.git adhoc-sale",
-        "https://github.com/adhoc-cicd/oca-sale-workflow.git",
+        # "https://github.com/ingadhoc/account-financial-tools.git adhoc-account-financial-tools",
+        # "https://github.com/ingadhoc/account-payment.git adhoc-account-payment",
+        # "https://github.com/ingadhoc/odoo-argentina.git adhoc-odoo-argentina",
+        # "https://github.com/ingadhoc/argentina-sale.git adhoc-argentina-sale",
+        # "https://github.com/ingadhoc/account-invoicing.git adhoc-account-invoicing",
+        # "https://github.com/ingadhoc/odoo-argentina-ee.git adhoc-odoo-argentina-ee",
+        # "https://github.com/ingadhoc/stock.git adhoc-stock",
+        # "https://github.com/ingadhoc/aeroo_reports.git adhoc-aeroo_reports",
+        # "https://github.com/ingadhoc/sale.git adhoc-sale",
+        # "https://github.com/adhoc-cicd/oca-sale-workflow.git",
 
     ],
     # list of images to use in the form 'name image-url'
